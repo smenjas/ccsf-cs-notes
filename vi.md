@@ -1,5 +1,5 @@
 # vi Cheat Sheet
-- vi is an interface for the ex editor. It is one of many [Unix text editors](editors.html).
+- vi is an interface for the ex editor. It is one of many [Unix text editors](editors.md).
 - vi has two modes: command and insert. You begin in command mode.
 
 ## Insert
@@ -35,8 +35,8 @@ p/P		paste text below/above the cursor
 "[a-z]p/P	put the contents of the buffer [a-z] below/above the cursor
 ```
 
-## Undo```
-
+## Undo
+```
 u	undo the last change (press u again to "undo the undo")
 U	undo all recent changes to the current line
 :u	undo the last command

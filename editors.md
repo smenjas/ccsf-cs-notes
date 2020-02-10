@@ -27,8 +27,8 @@ vi also has some weaknesses:
 - Since vi's not extensible, you can't add features.
 
 Bill Joy wrote vi in 1976. He recounts [a brief history of
-vi](http://www.linux-mag.com/1999-11/joy_04.html) in an [interview with Linux
-Magazine](http://www.linux-mag.com/1999-11/joy_01.html).
+vi](https://web.archive.org/web/20050207084053/http://www.linux-mag.com/1999-11/joy_04.html) in an [interview with Linux
+Magazine](https://web.archive.org/web/20050207084053/http://www.linux-mag.com/1999-11/joy_01.html).
 
 vim is vi improved. It has a few nice touches like syntax-highlighting and a
 help system which make it easier to use. You can [download a copy of
