@@ -87,8 +87,8 @@ N	repeat the search backwards
 J	join the current line with the next line
 ^T 	set autoindent one tab to the right
 ^D 	set autoindent one tab to the left
-&gt;&gt;	shift text one tab to the right
-&lt;&lt;	shift text one tab to the left
+>>	shift text one tab to the right
+<<	shift text one tab to the left
 ```
 
 ## Combinations
@@ -140,7 +140,7 @@ After setting autoindent, enter insert mode and press tab. From this point on vi
 16,25m30		move lines 16 through 25 to after line 30
 23,29co62		copy specified lines and place after line 62
 :1,10w [file]   	write lines 1 through 10 to [file]
-:40,$w &gt;&gt; [file]	copy lines 40 and on, append to [file]
+:40,$w >> [file]	copy lines 40 and on, append to [file]
 :1,$s/[s1]/[s2]/g	(Yow!) global replacement of [s1] with [s2]
 ```
 
