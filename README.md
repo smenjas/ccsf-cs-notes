@@ -1,6 +1,14 @@
-# Notes
+# CCSF Computer Science Notes
 
-These are some of my old notes from school on C++, Java, bash and PHP.
+Some of my old notes from [CCSF](https://www.ccsf.edu/).
+
+- [C++ 1st semester](cs110a/)
+- [C++ 2nd semester](cs110b/)
+- [Java](cs111b/)
+- [PHP](cs130a/)
+- [SQL](cs155a/)
+- [Unix & Linux](cs160a/)
+- [Discrete Math](math115/)
 
 ## License
 
