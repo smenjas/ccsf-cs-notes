@@ -220,9 +220,9 @@ Notation:
 
 ∃x (x < 5)
 
-∃x (x<sup>2</sup> = 25)
+∃x (x² = 25)
 
-∃x (x<sup>2</sup> = 2)
+∃x (x² = 2)
 
 "For all x (in our universe) …"
 
@@ -230,9 +230,9 @@ Notation:
 
 Examples:
 
-∀x (x<sup>2</sup> &gte; x)
+∀x (x² &gte; x)
 
-∀x (x &gte; 1 → x<sup>2</sup> &gte; x)
+∀x (x &gte; 1 → x² &gte; x)
 
 ∀x∃y (y > x)
 
@@ -326,9 +326,12 @@ Proof:
 p: a ≤ (a+b/2) ∨ b ≤ (a+b/2)
 
 p: ~(a ≤ (a+b/2) ∨ b ≤ (a+b/2)) ↔ (a > (a+b/2) ∧ b > (a+b/2)) (via DeMorgan)
-	→ (a+b) > (a+b/2) + (a+b/2)) (algebra)
-	→ (a+b > a+b) (algebra)
-	→ F
+
+→ (a+b) > (a+b/2) + (a+b/2)) (algebra)
+
+→ (a+b > a+b) (algebra)
+
+→ F
 
 ---
 
@@ -342,59 +345,59 @@ Proof: Exercise (very similar to the last example).
 
 Theorem: "The square of an even number is even."
 
-Better theorem: 2/n → 2/n<sup>2</sup>
+Better theorem: 2/n → 2/n²
 
 Proof:
 
 2/n, so ∃K (n = 2K)
 
-so n<sup>2</sup> = (2K)<sup>2</sup> = 4K^2 = 2(2K)^2
+so n² = (2K)² = 4K² = 2(2K)²
 
-so 2/n^2
+so 2/n²
 
 ---
 
-Theorem: If n is *odd*, then n^2 is odd.
+Theorem: If n is *odd*, then n² is odd.
 
-Better theorem: n = 2K + 1 → n^2 is odd
+Better theorem: n = 2K + 1 → n² is odd
 
 Proof: Exercise.
 
-Basic idea; (2K + 1)^2 = 4K^2 +4K + 1 = 2(2K^2 + 2K) + 1 is odd
+Basic idea; (2K + 1)² = 4K² +4K + 1 = 2(2K² + 2K) + 1 is odd
 
 ---
 
-Theorem: If n^2 is even, then n is even.
+Theorem: If n² is even, then n is even.
 
-Better theorem: 2/n^2 → 2/n
+Better theorem: 2/n² → 2/n
 
 Proof (first attempt):
 
-2/n^2
+2/n²
 
-n^2 = 2K, for some K
+n² = 2K, for some K
 
 n = √2K (stuck!!)
 
 Proof (2nd attempt):
 
-n^2 even → n even
+n² even → n even
 
-n not even → n^2 not even (contrapositive)
+n not even → n² not even (contrapositive)
 
-n odd → n^2 odd (True. See last theorem.)
+n odd → n² odd (True. See last theorem.)
 
 Remember: contrapositive (p → q) ↔ (~q → ~p)
 
 ---
 
-Theorem: n^2 off → n odd
+Theorem: n² off → n odd
 
 Proof: Prove the contrapositive instead.
 
-no not odd → n^2 not odd
+no not odd → n² not odd
 
-n even → n^2 even (Proved earlier!)
+n even → n² even (Proved earlier!)
 
 ---
 
@@ -418,21 +421,21 @@ p: √ &notroundE; q
 
 a = √b
 
-a^2 = 2b^2
+a² = 2b²
 
-2/a^2
+2/a²
 
 2/a (by our earlier theorem)
 
 a = 2K
 
-(2K)^2 = 2b^2
+(2K)² = 2b²
 
-4K^2 = 2b^2
+4K² = 2b²
 
-b^2 = 2K^2
+b² = 2K²
 
-b^2 is even, so b is even
+b² is even, so b is even
 
 b = 2m, for some m.
 
