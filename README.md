@@ -10,6 +10,10 @@ Some of my old notes from [CCSF](https://www.ccsf.edu/).
 - [Unix & Linux](cs160a/)
 - [Discrete Math](math115/)
 
+## [Text Editors](editors.md)
+- [pico](pico.md)
+- [vi](vi.md)
+
 ## License
 
 Released as open source software under the terms of the GNU GPLv2.
