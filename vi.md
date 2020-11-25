@@ -142,6 +142,7 @@ After setting autoindent, enter insert mode and press tab. From this point on vi
 :1,10w [file]   	write lines 1 through 10 to [file]
 :40,$w >> [file]	copy lines 40 and on, append to [file]
 :1,$s/[s1]/[s2]/g	(Yow!) global replacement of [s1] with [s2]
+:%s/[s1]/[s2]/g         Easier global replacement of [s1] with [s2]
 ```
 
 This is simply an edited version of [Joe R. Jah's introduction to vi](http://www.ccsf.edu/Pub/Fac/vi.html).
